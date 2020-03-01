@@ -17,12 +17,12 @@
     <section class="page-header">
         <h1 class="project-name" style="font-family: 'Raleway', sans-serif;font-weight: bold;">FiTCARD</h1>
         <h3 class="project-tagline" style="margin-top: -14px;">Teste Prático</h3>
-        <a href="https://www.fitcard.com.br" class="btn">fitcard.com.br</a>
+        <a href="https://www.fitcard.com.br" class="btn btn-app mt-3">fitcard.com.br</a>
         <hr>
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="" class="btn text-center">Listagem de Estabelecimentos</a>
-                <a href="" class="btn">Cadastrar Estabelecimento</a>
+                <a href="../estabelecimento/index.php" class="btn btn-app text-center">Listagem de Estabelecimentos</a>
+                <a href="" class="btn btn-app">Cadastrar Estabelecimento</a>
             </div>
         </div>
     </section>
