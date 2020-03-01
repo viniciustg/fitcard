@@ -20,7 +20,7 @@ class Connection implements IConnection
         try 
         {
             return new \PDO(
-                "mysql:host={$this->host};dbname={$this->dbname}",
+                "mysql:host={$this->host};dbname={$this->dbname};charset=UTF8;",
                 $this->user,
                 $this->pass
             );

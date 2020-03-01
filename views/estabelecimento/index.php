@@ -2,7 +2,7 @@
 require '..\..\config.php';
 
 $dados = $estabelecimentoDao->list();
-var_dump($dados);
+//var_dump($dados);
 ?>
 
 <div class="container">
