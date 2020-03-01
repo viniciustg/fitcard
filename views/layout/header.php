@@ -22,7 +22,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <a href="../estabelecimento/index.php" class="btn btn-app text-center">Listagem de Estabelecimentos</a>
-                <a href="" class="btn btn-app">Cadastrar Estabelecimento</a>
+                <a href="../estabelecimento/create.php" class="btn btn-app">Cadastrar Estabelecimento</a>
             </div>
         </div>
     </section>

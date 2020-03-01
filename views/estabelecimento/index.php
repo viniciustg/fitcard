@@ -1,4 +1,9 @@
-<?php require '../layout/header.php' ?>
+<?php require '../layout/header.php';
+require '..\..\config.php';
+
+$dados = $estabelecimentoDao->list();
+var_dump($dados);
+?>
 
 <div class="container">
     <div class="row mt-3">
