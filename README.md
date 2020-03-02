@@ -1,6 +1,6 @@
 # Teste - FitCard
 
-Teste prático para a vaga de desenvolvedor.
+Criar um sistema WEB de cadastro de estabelecimentos e categorias com as quatro funções básicas de CRUD (CREATE, READ, UPDATE e DELETE).
 
 ## Configurações
 - /config.php
