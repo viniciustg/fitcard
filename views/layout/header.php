@@ -9,6 +9,7 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/app.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 
     <title>FitCard - Teste</title>
 </head>

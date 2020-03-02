@@ -39,12 +39,10 @@ if(isset($_POST['btn-cadastrar']))
         $valida = $estabelecimentoDao->save();
         //echo var_dump($valida);
         if($valida == true) {
-            echo '
-            <div class="container">
-                <div class="alert alert-success mt-3" role="alert">
-                    Cadastro do Estabelecimento realizado com sucesso!
-                </div>
-            </div>';
+            echo '<script>
+                    alert("Estabelecimento cadastrado com sucesso!");
+                    window.location.href = "index.php"
+                  </script>';
         }
         elseif ($valida == false)
         {
