@@ -6,13 +6,13 @@ Teste prático para a vaga de desenvolvedor.
 - /config.php
 
 ## Informações
--- Back-end: PHP
+- Back-end: PHP
 
--- Front-end:
--- Bootstrap - https://getbootstrap.com/
--- jQuery - https://jquery.com/
--- Javascript
+- Front-end:
+  Bootstrap - https://getbootstrap.com/
+  jQuery - https://jquery.com/
+  Javascript
 
--- Plugins:
- -- jQuery.mask - https://igorescobar.github.io/jQuery-Mask-Plugin/
- -- Datables[Visualização] - https://datatables.net/
+- Plugins:
+  jQuery.mask - https://igorescobar.github.io/jQuery-Mask-Plugin/
+  Datables[Visualização] - https://datatables.net/
