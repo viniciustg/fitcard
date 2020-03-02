@@ -18,14 +18,19 @@ $dados = $estabelecimentoDao->list();
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Teste</td>
-                        <td>Teste</td>
-                        <td>000000000000</td>
-                        <td>
-                            <a href="" class="btn btn-primary">Visualizar</a>
-                        </td>
-                    </tr>
+                    <?php foreach ($dados as $key => $value) : ?>
+                        <tr>
+                            <td><?= $value[1] ?></td>
+                            <td><?= $value[2] ?></td>
+                            <td><?= $value[3] ?></td>
+                            <td>
+                                <form action="edit.php" method="post">
+                                    <input type="hidden" name="estabelecimento-id" id="estabelecimento-id" value="<?= $value[0] ?>">
+                                    <button class="btn btn-primary">Visualizar</button>
+                                </form>
+                            </td>
+                        </tr>
+                    <?php endforeach ?>
                 </tbody>
             </table>
         </div>
