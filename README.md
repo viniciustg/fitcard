@@ -16,3 +16,6 @@ Criar um sistema WEB de cadastro de estabelecimentos e categorias com as quatro 
 - Plugins:
   | jQuery.mask - https://igorescobar.github.io/jQuery-Mask-Plugin/
   | Datables[Visualização] - https://datatables.net/
+
+- Projeto:
+https://bit.ly/2ThglDz
